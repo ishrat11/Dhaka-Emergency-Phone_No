@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ADD8E6"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="0.04"
+            android:background="#FF69B4"
+            android:onClick="Police"
+            android:textColor="#FFFFFF"
+            android:text="Dhaka Metropolitan Police" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="0.03"
+            android:background="#FF69B4"
+            android:onClick="Ambulance"
+              android:textColor="#FFFFFF"
+            android:text="Dhaka Ambulance Service " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#FF69B4"
+            android:onClick="Fire"
+              android:textColor="#FFFFFF"
+            android:text="Dhaka Fire services  " />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#FF69B4"
+            android:onClick="Blood"
+              android:textColor="#FFFFFF"
+            android:text="Dhaka Blood Bank " />
+        
+        
+         <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="#FF69B4"
+            android:onClick="Women"
+              android:textColor="#FFFFFF"
+            android:text=" Women Support" />
+    </LinearLayout>
+    
+</LinearLayout>
